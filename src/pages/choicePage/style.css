@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/bg.png");
+}
+
+.content{
+    width: 400px;
+    margin: 400px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    font-family: 'Blinker', sans-serif;
+    width: 180px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #FFDEDE;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a .btn{
+    text-decoration: none;
+    color: #410F5A;
+}

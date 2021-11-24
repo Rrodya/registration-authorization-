@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/bg.png");
+}
+
+.content{
+    width: 376px;
+    height: 600px;
+    background-color: #1D0E34;
+    border-radius: 10px;
+    margin: 245px auto;
+    text-align: center;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-direction: column;*/
+    padding: 40px 50px;
+}
+
+.content__title{
+    font-family: 'Blinker', sans-serif;
+    font-size: 36px;
+    color: #fff;
+}
+
+.content-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.content-input div{
+    margin-top: 20px;
+}
+.content-input .input__username{
+    margin-top: 0;
+}
+.content__button{
+    margin-top: 40px;
+}
+.btn{
+    font-family: 'Blinker', sans-serif;
+    width: 180px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #FFDEDE;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a .btn{
+    text-decoration: none;
+    color: #1D0E34;
+}
+
+
+input{
+    font-family: 'Blinker', sans-serif;
+    height: 50px;
+    width: 275px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #36295C;
+    font-size: 18px;
+    padding-left: 20px;
+}
+input[placeholder]{
+    color: #ffffff;
+}
+
+.input__checkBox{
+    margin-top: 23px;
+    text-align: start;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #36295C;
+}
+
+
+.input__checkBox label{
+    font-family: 'Blinker', sans-serif;
+    color: white;
+    font-size: 14px;
+}

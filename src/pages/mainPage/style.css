@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/bg.png");
+}
+.content{
+    width: 260px;
+    height: 330px;
+    margin: 220px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.content__title{
+    font-family: 'Arimo', sans-serif;
+    font-size: 96px;
+    color: #fff;
+}
+
+.content__button button{
+    font-family: 'Blinker', sans-serif;
+    width: 180px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #FFDEDE;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content__button a button{
+    text-decoration: none;
+    color: #410F5A;
+}
