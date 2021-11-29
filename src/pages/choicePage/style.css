@@ -8,7 +8,7 @@ body{
     background-image: url("../img/bg.png");
 }
 
-.content{
+.select-content{
     width: 400px;
     margin: 400px auto;
     display: flex;

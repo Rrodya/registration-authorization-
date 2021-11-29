@@ -7,7 +7,7 @@ body{
     background-image: url("../img/bg.png");
 }
 
-.content{
+.login-content{
     width: 376px;
     height: 412px;
     background-color: #1D0E34;
@@ -26,14 +26,14 @@ body{
     color: #fff;
 }
 
-.content-input{
+.login-content__input{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 130px;
 }
 
-.btn{
+#nextLoginBtn{
     font-family: 'Blinker', sans-serif;
     width: 180px;
     height: 60px;
@@ -44,7 +44,7 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
-a .btn{
+#nextLoginBtn{
     text-decoration: none;
     color: #1D0E34;
 }

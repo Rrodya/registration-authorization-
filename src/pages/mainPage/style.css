@@ -6,7 +6,7 @@
 body{
     background-image: url("../img/bg.png");
 }
-.content{
+.main-content{
     width: 260px;
     height: 330px;
     margin: 220px auto;

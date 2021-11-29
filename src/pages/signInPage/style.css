@@ -7,16 +7,16 @@ body{
     background-image: url("../img/bg.png");
 }
 
-.content{
+.signIn-content{
     width: 376px;
-    height: 600px;
+    height: 650px;
     background-color: #1D0E34;
     border-radius: 10px;
     margin: 245px auto;
     text-align: center;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*flex-direction: column;*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     padding: 40px 50px;
 }
 
@@ -30,18 +30,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 50px;
-}
-.content-input div{
-    margin-top: 20px;
+    height: 350px;
 }
 .content-input .input__username{
     margin-top: 0;
 }
-.content__button{
-    margin-top: 40px;
-}
-.btn{
+
+#nextSignInBtn{
     font-family: 'Blinker', sans-serif;
     width: 180px;
     height: 60px;
@@ -52,7 +47,7 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
-a .btn{
+#nextSignInBtn{
     text-decoration: none;
     color: #1D0E34;
 }
