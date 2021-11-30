@@ -8,7 +8,7 @@ function SignInPage(){
     const [password, setPass] = useState('');
 
 
-    function onCreateData(e){
+    async function onCreateData(e){
         e.preventDefault();
 
         // const formData = {
@@ -22,15 +22,14 @@ function SignInPage(){
         formData.append('email', email);
         formData.append('password', password);
 
-        fetch('http://php/check.php', {
+        await fetch('http://getsql/check.php', {
             method: 'POST',
             header: {
                 'Content-Type': 'application/json'
             },
             body: formData
         })
-            .then(res => res.json)
-            .then(data => console.log(data));
+
     }
 
     return(
